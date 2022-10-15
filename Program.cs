@@ -1,7 +1,6 @@
 ﻿Console.WriteLine("Введите количество строк треугольника Паскаля:");
 int numberRows = int.Parse(Console.ReadLine());
 
-///Метод заполнения массива алгоритмом Паскаля:
 int [,] FillPascalArray (int numberRows)
 {
     int rows = numberRows;
@@ -21,7 +20,6 @@ int [,] FillPascalArray (int numberRows)
 }
 
 
-///Метод печати массива Паскаля:
 void PrintPascalArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
